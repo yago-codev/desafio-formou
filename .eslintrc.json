@@ -25,6 +25,11 @@
   "rules": {
     "prettier/prettier": "error",
     "react/jsx-filename-extension": ["warn", { "extensions": [".jsx", ".js"] }],
-    "import/prefer-default-export": "off"
+    "import/prefer-default-export": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "no-param-reassign": "off",
+    "no-return-assign": "off",
+    "array-callback-return": "off"
   }
 }
